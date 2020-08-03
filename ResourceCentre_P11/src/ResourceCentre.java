@@ -7,7 +7,6 @@ public class ResourceCentre {
 	private static final int OPTION_ADD = 2;
 	private static final int OPTION_VIEW = 1;
 	private static final int OPTION_QUIT = 5;
-	private static final int OPTION_QUIT = 5;
 	public static void main(String[] args) {
 
 		ArrayList<Camcorder> camcorderList = new ArrayList<Camcorder>();
@@ -53,7 +52,7 @@ public class ResourceCentre {
 					System.out.println("Invalid type");
 				}
 
-			} else if (option == OPTION_ADD) {
+			} else if (option == OPTION_LOAN) {
 				// Loan item
 				ResourceCentre.setHeader("LOAN");			
 				ResourceCentre.setHeader("ITEM TYPES");
